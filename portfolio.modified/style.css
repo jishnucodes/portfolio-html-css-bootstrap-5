@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: "Karla", Arial, sans-serif;
+
+}
+
+#offcanvasNavbar{
+    width: 250px;
+}
+.offcanvas-header{
+    
+}
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.navbar-nav{
+    margin-top: 25px;
+    margin-left: 86px;
+}
+.logo-img{
+    width: 150px;
+    height: 50px;
+}
+.logo-offcanvas{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+.profile-img{
+    margin-top: 50px;
+    margin-left: 33px;
+    width: 150px;
+    height: 150px;
+}
+/* ===HOME-PAGE STYLING */
+.home-section{
+    width: 100%;
+    margin: 0;
+}
+.home-section .container .bio-image img{
+    width: 500px;
+    padding: 7px;
+    border-radius: 12px;
+    border: 1px solid grey;
+    margin-top: 60px;
+}
+.home-section .container .bio-image img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.home-section .container .intro-header{
+    letter-spacing: 2px;
+    font-family: karla;
+    margin-top: 40px;
+    font-family: karla;
+    height: 100px;
+    padding: 25px;
+
+}
+
+.home-section .container .about-para h5{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: left top 0;
+    -ms-transform-origin: left top 0;
+    transform-origin: left top 0;
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-top: 30px;
+    padding: 25px;
+      
+} 
+.home-section .container .about-para{
+    margin-left: 20px;
+    margin-left: 20px;
+    padding: 12px;
+    margin-top: 0;
+}
+.home-section .container .about-para p{
+    color: grey;
+    font-family: karla;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: -55px;
+}
+.home-section .container .icons a{
+    margin-left: 25px;
+}
+
+/* skill-section styling */
+.skills{
+    width: 100%;
+    margin: 0;
+    background-color: aliceblue;
+}
+.skills .header{
+    padding: 84px 0;
+    margin-top: 20px;
+    font-family: karla;
+    letter-spacing: 2px;
+}
+.skillSection-header p{
+    color: grey;
+    font-family: karla;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.skill-progress-bar p{
+    color: grey;
+    font-family: karla;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.service-part-header {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: left top 0;
+    -ms-transform-origin: left top 0;
+    transform-origin: left top 0;
+    letter-spacing: 4px;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    margin-left: 65px;
+    
+}
+ .box-wrapper{
+    margin-left: -25px;
+    margin-top: 170px;
+}
+.card-design{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.card-design .card-img-top{
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.card-design .card-title{
+    font-family: karla;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.card-design .card-text{
+    font-size: 17px;
+    color: grey;
+    padding: 2px;
+}
+.card-development{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.card-development .card-img-top{
+    padding: 5px;
+    border-radius: 8px;
+}
+.card-development .card-title{
+    font-family: karla;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.card-development .card-text{
+    font-size: 17px;
+    color: grey;
+    padding: 1px;
+}
+
+
+/* ===PROJECT-SECTION STYLING=== */
+
+.projects{
+    width: 100%;
+    margin: 0;
+    background-color: #eefafd;
+}
+.projects .project-header {
+    padding: 50px;
+    margin-top: 20px;
+    font-family: karla;
+    letter-spacing: 2px;
+}
+.projects .project-header h1{
+    font-size: 46px;
+}
+.projects .card-1{
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-image: url(/images/pepsi\ project\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.projects .hoverable-content{
+    display: none;
+    text-align: center;
+    background: #ff000066;
+    height: 288px;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+    
+
+}
+
+.projects .card-2{
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-image: url(/images/instagram-project-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.projects .card-3{
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-image: url(/images/Screenshot\ \(68\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.projects .card-4{
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-image: url(/images/Screenshot\ \(70\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+
+}
+.projects .card-1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.679), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+}
+.projects .card-2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.679), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+}
+.projects .card-3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.679), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+}
+.projects .card-4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.679), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+}
+
+.projects .card-1:hover .hoverable-content{
+    display: block;
+}
+.projects .card-2:hover .hoverable-content{
+    display: block;
+}.projects .card-3:hover .hoverable-content{
+    display: block;
+}.projects .card-4:hover .hoverable-content{
+    display: block;
+}
+
+/* ===CONTACT-SECTION STYLING=== */
+
+.contact-section{
+    width: 100%;
+    margin: 0;
+    background-color: #eff0ef;
+    
+}
+.contact-section .container .contact-header{
+    padding: 84px 0;
+    margin-top: 20px;
+    font-family: karla;
+    letter-spacing: 2px;
+}
+
+.contact-section .container .contact-content h1{
+    font-size: 30px;
+    font-family: karla;
+    font-style: italic;
+}
+.contact-section .container .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.contact-section .container .card .card-body h5{
+    font-family: karla;
+    font-size: 15px;
+}
+.contact-section .container .card .card-body p{
+    font-family: karla;
+    font-size: 13px;
+}
+.contact-section .container .contact-form{
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 10px;
+}
+.contact-section .container .contact-form .form-header h1{
+    font-family: karla;
+}
+
+
+
+/* ===MEDIA QUERIES=== */
+
+@media screen and (max-width: 768px){
+    .box-wrapper{
+        margin-top: 70px;
+        margin-left: -80px;
+    }
+    .service-part-header {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        -webkit-transform-origin: left top 0;
+        -ms-transform-origin: left top 0;
+        transform-origin: left top 0;
+        letter-spacing: 4px;
+        position: relative;
+        font-size: 30px;
+        margin-left: 60px;
+      
+        top: -50px;
+        
+    }
+}

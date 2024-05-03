@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    margin: 0;
+    font-family: "Karla", Arial, sans-serif;
+}
+.home-section {
+    width: 100%;
+
+}
+
+.home-section .container-lg .container-content {
+    margin: 10% auto;
+}
+
+
+
+.home-section .container-lg .container-content .left-section img {
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 7px;
+    border-radius: 12px;
+}
+
+.home-section .container-lg .container-content .right-section .right-content {
+    padding: 30px;
+}
+
+.home-section .container-lg .container-content .right-section .right-content .inner-header h1 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: left top 0;
+    -ms-transform-origin: left top 0;
+    transform-origin: left top 0;
+    font-size: 17px;
+    letter-spacing: 4px;
+    padding: 13px;
+    text-transform: capitalize;
+
+}
+
+.home-section .container-lg .container-content .right-section .right-content p {
+    margin-left: 10px;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: "Karla", Arial, sans-serif;
+    color: gray;
+}
+/* section-2 styling */
+.skill-section .container-lg .content-container .skill-section-header h1{
+    margin: 0;
+    height: 10px;
+    font-weight: normal;
+    
+   
+}
+.skill-section .container-lg .content-container .skill-section-content{
+    margin-top: 10%;
+}
+.skill-section .container-lg .content-container .skill-section-content .service-part{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width: 200px;
+    margin-left: 75px;
+    border-radius: 25px;
+}
+.skill-section .container-lg .content-container .skill-section-content .service-part h1{
+    font-weight: normal;
+}
+.skill-section .container-lg .content-container .skill-section-content .service-part li{
+    letter-spacing: 1px;
+
+}
+
+
+/* project section styling */
+.project-section .container-lg .project-section-head h1{
+    padding: 100px;
+    margin: 0;
+    height: 76px;
+
+}
+/* contact-section styling */
+.contact-section .container-lg .contact-container{
+    padding: 120px;
+}
+.contact-section .container-lg .contact-content{
+    margin: 50px 0;
+}
+.contact-section .container-lg .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.contact-section .container-lg .contact-form{
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+footer{
+    height: 50px;
+    background: grey;
+    padding: 10px;
+}
+footer p{
+    font-size: 17px;
+}
+footer p span{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
